@@ -1,0 +1,446 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    background-color:#ebf2ff;
+}
+
+.container
+{
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.button__primary
+{
+    background: linear-gradient(to right, #ff512f 1%, #dd2476 51%, #ff512f 100%);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.view_more_button
+{
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    font-size: 20px;
+    background:linear-gradient(to right, #dd2476 51%, #ff512f 100%) ;
+    border-radius: 7px;
+    border: none;
+    margin-top: 12px;
+    color: #fff;
+}
+.view_more_button:hover{
+    background: linear-gradient(to left, #ff512f 1%, #dd2476 51%, #ff512f 100%);
+}
+/* Navbar Styling */
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.navbar__brand
+{
+    width: 100px;
+}
+
+.navbar__logo
+{
+    width: 100%;
+}
+
+.nav__item
+{
+    background: linear-gradient(to right, #dd2476 51%, #ff512f 100%);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.nav__item:hover{
+    box-shadow: 0px 1px 9px 1px #565656;
+}
+
+
+/*  Hero Section Styling */
+.hero__container{
+    margin-top:17px ;
+}
+.hero__images__container
+{
+    width: 100%;
+    position: relative;
+    margin-bottom: 140px;
+}
+.hero__image__container1, .hero__image__container2, .hero__image__container3
+{
+    width: 100%;
+}
+.hero__image__container2, .hero__image__container3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+.hero__image2, .hero__image3{
+    width: 100%;
+    /* height: 100%; */
+}
+.hero__image1{
+    display: block;
+    width: 100%;
+    border-radius: 9px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.hero__description{
+    width: 100%;
+}
+
+.hero__text
+{
+    width: 100%;
+    font-size: 30px;
+    margin:  20px 0;
+    color: #1d3557;
+}
+
+/* Explore Menu Styling */
+.explore__menu__text
+{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #1d3557;
+}
+.food__card{
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.food__card__image__container
+{
+    width: 100%;
+}
+.food__image
+{
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+}
+.food__description{
+    padding: 15px;
+}
+
+.explore__menu__view__more{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* Restraunts Section Styling  */
+
+.restraunt__text
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    columns: #1d3557;
+    width: 100%;
+}
+.restraunt__images__container
+{
+    width: 100%;
+}
+.restraunt__images__row1, .restraunt__images__row2
+{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    gap: 7px;
+}
+.restraunt__images__row2
+{
+    align-items: flex-start;
+}
+.restraunt__image2, .restraunt__image3
+{
+    height: 110%;
+    width: 120%;
+}
+.restraunt__image1 , .restraunt__image4
+{
+    width: 100%;
+}
+.restraunt__1, .restraunt__2,.restraunt__3, .restraunt__4{
+    width: 100%;
+}
+
+/* Stay Updated Section */
+.update__text
+{
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 30px;
+    color: #1d3557;
+}
+.update__content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.update__input
+{
+    width: 65%;
+    padding: 10px 12px;
+    border: 1px solid #ee89a0;
+    color: #1d3557;
+    font-weight: 700;
+    background-color: #fcedf0;
+    border-radius: 4px;
+    outline: none;
+}
+/* quote section styling */
+.quote__container
+{
+    width: 100%;
+    border-radius: 8px;
+    min-height: 30vh;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url("https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80") no-repeat center/cover;
+}
+.quote__text
+{
+    font-size: 20px;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+/* video tag styling */
+.video__container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0;
+    gap: 30px;
+}
+.video__container p{
+    text-align: center;
+    color: #1d3557;
+    font-size: 20px;
+}
+.video__bar
+{
+    width: 100%;
+    box-shadow: 10px 10px 0px 0px #ff512f;
+}
+.video__bar iframe{
+    height: 100%;
+    width: 100%;
+}
+/* Footer Styling */
+.foot
+{
+    background:linear-gradient(to right,#ff512f 1%, #dd2476 50%, #ff512f);
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.footer__container
+{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.footer__image__container
+{
+    width: 250px;
+}
+.footer__logo{
+    width: 100%;
+    filter: brightness(0) invert(1);
+}
+.footer__nav__item{
+    list-style: none;
+    padding:5px 10px;
+    font-size: 20px;
+}
+
+/* ************************media Queries********************************** */
+
+/* ************For tablet devices******** */
+
+@media  (min-width:768px) {
+    .container{
+        max-width: 1000px;
+    }
+    /* navbar styling */
+    .navbar{
+        justify-content: space-between;
+        padding: 0px 70px;
+        height: 70px;
+    }
+    /* hero section styling */
+    .hero__container
+    {
+        display:flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-top: 30px;
+    }
+    /* explore menu section styling */
+    .explore__menu__lists
+    {
+        display: flex;
+        gap: 15px;
+        margin-top: 40px;
+        padding: 0 30px;
+    }
+    #pizza__card
+    {
+        margin-top: -18px;
+        margin-bottom: 30px;
+    }
+    .explore__menu__container
+    {
+        margin: 80px 0;
+        position: relative;
+    }
+    .explore__menu__gradient__bg
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background:linear-gradient(to right,#ff512f 0%, #dd2476 51%, #ff512f) ;
+        z-index: -1;
+        transform: skewY(-5deg);
+    }
+    .view_more_button{
+        background: none;
+        transition: all 0.1s ease-in;
+        cursor: pointer;
+    }
+    .view_more_button:hover
+    {
+        width: 50%;
+        background: #fff;
+        color:#ff512f;
+    }
+    /* restraunt section styling */
+    .restraunt__container
+    {
+        display: flex;
+        gap:80px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* update section */
+    .update__container
+    {
+        margin: 40px 0;
+    }
+    .update__content
+    {
+        justify-content: center;
+        gap: 20px;
+    }
+    /* quote section styling */
+    .quote__text{
+        font-size: 40px;
+        line-height: 1.6em;
+    }
+    /* video styling */
+    .video__container p{
+        font-size: 30px;
+    }
+    .video__bar{
+        height: 250px;
+    }
+    /* footer styling */
+    .footer__container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* ************for Desktop devices************** */
+
+@media (min-width:1020px) {
+    .button__primary
+    {
+        padding: 12px  20px;
+        font-size: 20px;
+    }
+    /* navbar styling */
+    .navbar__brand{
+        width: 150px;
+    }
+    /* Hero section styling */
+    .hero__text{
+        font-size: 45px;
+    }
+    /* explore menu section styling */
+    .explore__menu__text
+    {
+        font-size: 45px;
+    }
+    .explore__menu__lists{
+        gap: 40px;
+    }
+    /* restraunt styling */
+    .restraunt__text{
+        font-size: 50px;
+    }
+    /* quote sewction styling */
+    .quote__container
+    {
+        min-height: 40vh;
+        border-radius: 12px;
+    }
+    /* footer section styling */
+    .foot{
+        background:linear-gradient(to right,#ff512f 0%, #dd2476 51%, #ff512f) ;
+        width: 100%;
+    }
+}
+
+/* **************For Extra Large Screen Monitors********** */
+@media (min-width:1400px) {
+    .container
+    {
+        max-width: 1300px;
+    }
+    /* hero section styling */
+    .hero__text{
+        font-size: 50px;
+    }
+}
